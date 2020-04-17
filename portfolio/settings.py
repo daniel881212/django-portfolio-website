@@ -25,7 +25,8 @@ SECRET_KEY = 'bddg8n000+u%#^y-uoqd)haizr21y^zl8vk(f=b2bi$0j0^+zg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['danielchen.page',]
+ALLOWED_HOSTS = ['167.71.154.222', 'check.best-proxies.ru', 'danielchen.page', 'www.danielchen.page']
 
 
 # Application definition
