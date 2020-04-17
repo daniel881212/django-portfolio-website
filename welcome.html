@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Daniel Chen</title>
+    <!-- <link rel="stylesheet" href="styling.css"> -->
+    <style media="screen">
+    body {
+      background-image: url("background.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center center;
+      background-color: #464646;
+      background-color: hsla(0,0%,100%,0.250);
+      background-blend-mode: overlay;
+    }
+    h1 a{
+      font-size: 25px;
+      font-weight: lighter;
+      background-color: none;
+      color: #111922;
+      text-decoration: none;
+      font-family: sans-serif;
+      letter-spacing: 4px;
+      padding-left: 25px;
+      transition: font-size 1s;
+    }
+    h1 a:hover{
+      font-size: 26px;
+      position: static;
+    }
+    #menulist {
+      list-style: none;
+      padding-left: calc(100% / 4);
+      margin-top: -46px;
+      overflow: auto;
+    }
+    #menulist li {
+      list-style: none;
+      float: left;
+      padding-left: calc(100% / 20);
+      padding-right: calc(100% / 20);
+      height: 20px;
+      border-right: 1px solid #000000;
+      border-bottom-style: hidden;
+      transition: border-bottom 1.5s;
+    }
+
+    #menulist li:last-of-type {
+      border-right: none;
+    }
+
+    #menulist li a{
+      font-size: 12px;
+      font-weight: lighter;
+      text-decoration: none;
+      text-transform: uppercase;
+      background-color: none;
+      color: #111922;
+      text-decoration: none;
+      font-family: sans-serif;
+      letter-spacing: 0.8px;
+      transition: font-size font-weight 1s;
+    }
+    #menulist li a:hover{
+      font-size: 13px;
+      /* border-bottom: 1px solid rgb(29, 31, 33); */
+      position: sticky;
+      font-weight: normal;
+    }
+
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="title">
+          <h1>
+            <a href="#">Daniel Chen</a>
+          </h1>
+          <ul id="menulist" class="menulist">
+            <li><a href="#">Technical Projects</a></li>
+            <li><a href="#">Experience<a></li>
+            <li><a href="#">Blog<a></li>
+            <li><a href="#">Contact<a></li>
+            <li><a href="#">Resume<a></li>
+          </ul>
+        </div>
+        <div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
