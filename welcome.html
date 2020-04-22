@@ -45,13 +45,10 @@
       height: 20px;
       border-right: 1px solid #000000;
       border-bottom-style: hidden;
-      transition: border-bottom 1.5s;
     }
-
     #menulist li:last-of-type {
       border-right: none;
     }
-
     #menulist li a{
       font-size: 12px;
       font-weight: lighter;
@@ -62,7 +59,7 @@
       text-decoration: none;
       font-family: sans-serif;
       letter-spacing: 0.8px;
-      transition: font-size 1s;
+      transition: font-size 1s ease;
     }
     #menulist li a:hover{
       font-size: 13px;
@@ -70,6 +67,38 @@
       position: sticky;
       font-weight: bolder;
     }
+    .mainPageTitles  {
+      /* border: 1px solid #000000; */
+      text-align: right;
+      font-family: sans-serif;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      font-weight: lighter;
+    }
+    #engphys{
+      padding-bottom: 0vw;
+      padding-top: 65vh;
+      padding-right: 3vw;
+      font-size: 2.1vw;
+    }
+    #subTitle{
+      /* border: 1px solid #000000; */
+      padding-left: 56vw;
+      padding-top: 0.01vh;
+    }
+    #subTitle li {
+      list-style: none;
+      float: left;
+      font-size: 1.5vw;
+      padding-left: 2vw;
+      padding-right: 2vw;
+      border-right: 1px solid #000000;
+      border-bottom-style: hidden;
+    }
+    #subTitle li:last-of-type {
+      border-right: none;
+    }
+
 
     </style>
   </head>
@@ -80,16 +109,27 @@
           <h1>
             <a href="#">Daniel Chen</a>
           </h1>
-          <ul id="menulist" class="menulist">
-            <li><a href="#">Technical Projects</a></li>
-            <li><a href="#">Experience<a></li>
-            <li><a href="#">Blog<a></li>
-            <li><a href="#">Contact<a></li>
-            <li><a href="#">Resume<a></li>
-          </ul>
+          <nav>
+            <ul id="menulist">
+              <li><a href="#">Technical Projects</a></li>
+              <li><a href="#">Experience<a></li>
+              <li><a href="#">Blog<a></li>
+              <li><a href="#">Contact<a></li>
+              <li><a href="#">Resume<a></li>
+            </ul>
+          </nav>
         </div>
         <div>
-
+          <div id="engphys" class="mainPageTitles">
+            <p>UBC Engineering Physics</p>
+          </div>
+          <div id="subTitle" class="mainPageTitles">
+            <ul>
+              <li>Software</li>
+              <li>Robotics</li>
+              <li>Design</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
